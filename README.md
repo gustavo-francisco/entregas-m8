@@ -24,7 +24,7 @@ Então, inicie a operação do pacote do turtlebot3:<br>
 
 O presente projeto contém 1 pacote ROS e 2 launchers. O pacote ROS possui o arquivo py responsável por fazer os comandos de movimentação ao robô.<br>
 Para buildar o pacote, rode na pasta raíz do projeto:<br>
-`colcon build`<br
+`colcon build`<br>
 Esse comando basicamente compila o pacote ROS.<br>
 Então, de um source no script de configuração do workspace. Para isso:<br>
 `source install/local_setup.bash`
