@@ -1,0 +1,35 @@
+[0.000000] (-) TimerEvent: {}
+[0.000257] (navigation) JobQueued: {'identifier': 'navigation', 'dependencies': OrderedDict()}
+[0.000320] (navigation) JobStarted: {'identifier': 'navigation'}
+[0.099499] (-) TimerEvent: {}
+[0.199714] (-) TimerEvent: {}
+[0.299921] (-) TimerEvent: {}
+[0.400160] (-) TimerEvent: {}
+[0.500450] (-) TimerEvent: {}
+[0.507529] (navigation) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/navigation', 'build', '--build-base', '/home/gustavo/ws/build/navigation/build', 'install', '--record', '/home/gustavo/ws/build/navigation/install.log', '--single-version-externally-managed'], 'cwd': '/home/gustavo/ws/src/navigation', 'env': {'USER': 'gustavo', 'LC_TIME': 'pt_BR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'CMAKE_CXX_COMPILER': 'g++', 'BROWSER': 'firefox', 'XDG_CACHE_HOME': '/home/gustavo/.cache', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/gustavo', 'FIREFOX_BACKUP_DIR': '/home/gustavo/Documents/.backup/Mozilla', 'OLDPWD': '/home/gustavo/ws/src', 'DESKTOP_SESSION': 'ubuntu', 'XDG_DOCUMENTS_DIR': '/home/gustavo/Documents', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'pt_BR.UTF-8', 'FNM_ARCH': 'x64', 'XDG_STATE_HOME': '/home/gustavo/.local/state', 'VISUAL': 'nvim', 'SYSTEMD_EXEC_PID': '3120', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'FNM_VERSION_FILE_STRATEGY': 'local', 'FNM_LOGLEVEL': 'info', 'COLCON_PREFIX_PATH': '/home/gustavo/ws/install', 'LOGNAME': 'gustavo', '_': '/usr/bin/colcon', 'FNM_NODE_DIST_MIRROR': 'https://nodejs.org/dist', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'gustavo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/run/user/1000/fnm_multishells/5890_1699991204094/bin:/home/rmnicola/.local/share/fnm:/opt/ros/humble/bin:/home/gustavo/bin:/home/gustavo/.local/bin:/home/gustavo/.cargo/bin:/home/gustavo/bin:/home/gustavo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/gustavo-Latitude-5420:@/tmp/.ICE-unix/1583,unix/gustavo-Latitude-5420:/tmp/.ICE-unix/1583', 'GNOME_BACKUP_DIR': '/home/gustavo/Documents/.backup/Gnome', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LC_ADDRESS': 'pt_BR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/dc26377e_de27_4429_b5f8_9c8bac4bbcaf', 'XDG_MENU_PREFIX': 'gnome-', 'DISPLAY': ':0', 'CMAKE_C_COMPILER': 'gcc', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'HISTSIZE': '10000', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.EV0FE2', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XDG_DATA_HOME': '/home/gustavo/.local/share', 'GNOME_TERMINAL_SERVICE': ':1.101', 'XDG_CONFIG_HOME': '/home/gustavo/.config', 'XMODIFIERS': '@im=ibus', 'FNM_DIR': '/home/gustavo/.local/share/fnm', 'ROS_DOMAIN_ID': '143', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/gustavo/ws/install/navigation:/opt/ros/humble', 'FNM_RESOLVE_ENGINES': 'false', 'LC_NAME': 'pt_BR.UTF-8', 'SHELL': '/usr/bin/zsh', 'GDMSESSION': 'ubuntu', 'QT_ACCESSIBILITY': '1', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'QT_IM_MODULE': 'ibus', 'SAVEHIST': '10000', 'PWD': '/home/gustavo/ws/build/navigation', 'TURTLEBOT3_MODEL': 'burger', 'FNM_MULTISHELL_PATH': '/run/user/1000/fnm_multishells/5890_1699991204094', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'KEYTIMEOUT': '1', 'LC_NUMERIC': 'pt_BR.UTF-8', 'PYTHONPATH': '/home/gustavo/ws/build/navigation/prefix_override:/home/gustavo/ws/install/navigation/lib/python3.10/site-packages:/home/gustavo/ws/install/navigation/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'HISTFILE': '/home/gustavo/.config/zsh/.zhistory', 'LC_PAPER': 'pt_BR.UTF-8', 'FNM_COREPACK_ENABLED': 'false', 'COLCON': '1', 'VTE_VERSION': '6800', 'EDITOR': 'nvim'}, 'shell': False}
+[0.600569] (-) TimerEvent: {}
+[0.662951] (navigation) StdoutLine: {'line': b'running egg_info\n'}
+[0.663516] (navigation) StdoutLine: {'line': b'writing ../../build/navigation/navigation.egg-info/PKG-INFO\n'}
+[0.664225] (navigation) StdoutLine: {'line': b'writing dependency_links to ../../build/navigation/navigation.egg-info/dependency_links.txt\n'}
+[0.664310] (navigation) StdoutLine: {'line': b'writing entry points to ../../build/navigation/navigation.egg-info/entry_points.txt\n'}
+[0.664377] (navigation) StdoutLine: {'line': b'writing requirements to ../../build/navigation/navigation.egg-info/requires.txt\n'}
+[0.664442] (navigation) StdoutLine: {'line': b'writing top-level names to ../../build/navigation/navigation.egg-info/top_level.txt\n'}
+[0.665604] (navigation) StdoutLine: {'line': b"reading manifest file '../../build/navigation/navigation.egg-info/SOURCES.txt'\n"}
+[0.666115] (navigation) StdoutLine: {'line': b"writing manifest file '../../build/navigation/navigation.egg-info/SOURCES.txt'\n"}
+[0.666187] (navigation) StdoutLine: {'line': b'running build\n'}
+[0.666227] (navigation) StdoutLine: {'line': b'running build_py\n'}
+[0.666291] (navigation) StdoutLine: {'line': b'running install\n'}
+[0.666386] (navigation) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[0.666491] (navigation) StderrLine: {'line': b'  warnings.warn(\n'}
+[0.666567] (navigation) StdoutLine: {'line': b'running install_lib\n'}
+[0.667307] (navigation) StdoutLine: {'line': b'running install_data\n'}
+[0.667582] (navigation) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.668695] (navigation) StdoutLine: {'line': b"removing '/home/gustavo/ws/install/navigation/lib/python3.10/site-packages/navigation-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.668835] (navigation) StdoutLine: {'line': b'Copying ../../build/navigation/navigation.egg-info to /home/gustavo/ws/install/navigation/lib/python3.10/site-packages/navigation-0.0.0-py3.10.egg-info\n'}
+[0.669290] (navigation) StdoutLine: {'line': b'running install_scripts\n'}
+[0.683754] (navigation) StdoutLine: {'line': b'Installing nav script to /home/gustavo/ws/install/navigation/lib/navigation\n'}
+[0.684008] (navigation) StdoutLine: {'line': b"writing list of installed files to '/home/gustavo/ws/build/navigation/install.log'\n"}
+[0.701073] (-) TimerEvent: {}
+[0.701460] (navigation) CommandEnded: {'returncode': 0}
+[0.739693] (navigation) JobEnded: {'identifier': 'navigation', 'rc': 0}
+[0.740155] (-) EventReactorShutdown: {}

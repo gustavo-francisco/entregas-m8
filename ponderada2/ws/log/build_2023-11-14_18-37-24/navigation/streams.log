@@ -1,0 +1,26 @@
+[0.667s] Invoking command in '/home/gustavo/ws/src/navigation': PYTHONPATH=/home/gustavo/ws/build/navigation/prefix_override:/home/gustavo/ws/install/navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/navigation build --build-base /home/gustavo/ws/build/navigation/build install --record /home/gustavo/ws/build/navigation/install.log --single-version-externally-managed
+[0.806s] running egg_info
+[0.806s] writing ../../build/navigation/navigation.egg-info/PKG-INFO
+[0.807s] writing dependency_links to ../../build/navigation/navigation.egg-info/dependency_links.txt
+[0.807s] writing entry points to ../../build/navigation/navigation.egg-info/entry_points.txt
+[0.807s] writing requirements to ../../build/navigation/navigation.egg-info/requires.txt
+[0.807s] writing top-level names to ../../build/navigation/navigation.egg-info/top_level.txt
+[0.808s] reading manifest file '../../build/navigation/navigation.egg-info/SOURCES.txt'
+[0.812s] writing manifest file '../../build/navigation/navigation.egg-info/SOURCES.txt'
+[0.812s] running build
+[0.812s] running build_py
+[0.813s] copying navigation/nav.py -> /home/gustavo/ws/build/navigation/build/lib/navigation
+[0.813s] running install
+[0.814s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.814s]   warnings.warn(
+[0.814s] running install_lib
+[0.814s] copying /home/gustavo/ws/build/navigation/build/lib/navigation/nav.py -> /home/gustavo/ws/install/navigation/lib/python3.10/site-packages/navigation
+[0.815s] byte-compiling /home/gustavo/ws/install/navigation/lib/python3.10/site-packages/navigation/nav.py to nav.cpython-310.pyc
+[0.815s] running install_data
+[0.815s] running install_egg_info
+[0.817s] removing '/home/gustavo/ws/install/navigation/lib/python3.10/site-packages/navigation-0.0.0-py3.10.egg-info' (and everything under it)
+[0.817s] Copying ../../build/navigation/navigation.egg-info to /home/gustavo/ws/install/navigation/lib/python3.10/site-packages/navigation-0.0.0-py3.10.egg-info
+[0.818s] running install_scripts
+[0.832s] Installing nav script to /home/gustavo/ws/install/navigation/lib/navigation
+[0.832s] writing list of installed files to '/home/gustavo/ws/build/navigation/install.log'
+[0.849s] Invoked command in '/home/gustavo/ws/src/navigation' returned '0': PYTHONPATH=/home/gustavo/ws/build/navigation/prefix_override:/home/gustavo/ws/install/navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/navigation build --build-base /home/gustavo/ws/build/navigation/build install --record /home/gustavo/ws/build/navigation/install.log --single-version-externally-managed
