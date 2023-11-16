@@ -3,6 +3,10 @@
 Vídeo de funcionamento:
 
 
+
+https://github.com/gustavo-francisco/entregas-m8/assets/99208114/cc7491b8-3e7b-4a87-ab81-333ab68ffc61
+
+
 # Instruções de instalação:
 Para este projeto será necessário: <br>
 1 Turtlebot3 Burger; <br>
