@@ -1,0 +1,50 @@
+[0.000000] (-) TimerEvent: {}
+[0.001002] (chatbot) JobQueued: {'identifier': 'chatbot', 'dependencies': OrderedDict()}
+[0.001033] (chatbot) JobStarted: {'identifier': 'chatbot'}
+[0.099893] (-) TimerEvent: {}
+[0.200324] (-) TimerEvent: {}
+[0.300630] (-) TimerEvent: {}
+[0.400934] (-) TimerEvent: {}
+[0.438419] (chatbot) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/chatbot', 'build', '--build-base', '/home/gustavo/ws/build/chatbot/build', 'install', '--record', '/home/gustavo/ws/build/chatbot/install.log', '--single-version-externally-managed'], 'cwd': '/home/gustavo/ws/src/chatbot', 'env': {'USER': 'gustavo', 'LC_TIME': 'pt_BR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'CMAKE_CXX_COMPILER': 'g++', 'BROWSER': 'firefox', 'XDG_CACHE_HOME': '/home/gustavo/.cache', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/gustavo', 'FIREFOX_BACKUP_DIR': '/home/gustavo/Documents/.backup/Mozilla', 'OLDPWD': '/home/gustavo/ws/src', 'DESKTOP_SESSION': 'ubuntu', 'XDG_DOCUMENTS_DIR': '/home/gustavo/Documents', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'pt_BR.UTF-8', 'FNM_ARCH': 'x64', 'XDG_STATE_HOME': '/home/gustavo/.local/state', 'VISUAL': 'nvim', 'SYSTEMD_EXEC_PID': '25734', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'FNM_VERSION_FILE_STRATEGY': 'local', 'FNM_LOGLEVEL': 'info', 'LOGNAME': 'gustavo', '_': '/usr/bin/colcon', 'FNM_NODE_DIST_MIRROR': 'https://nodejs.org/dist', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'gustavo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/run/user/1000/fnm_multishells/29277_1700172402334/bin:/home/rmnicola/.local/share/fnm:/opt/ros/humble/bin:/home/gustavo/bin:/home/gustavo/.local/bin:/home/gustavo/.cargo/bin:/home/gustavo/bin:/home/gustavo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/gustavo-Latitude-5420:@/tmp/.ICE-unix/1572,unix/gustavo-Latitude-5420:/tmp/.ICE-unix/1572', 'GNOME_BACKUP_DIR': '/home/gustavo/Documents/.backup/Gnome', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LC_ADDRESS': 'pt_BR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b9d2f1d5_a3d9_4acd_a4ed_ce61e2d62158', 'XDG_MENU_PREFIX': 'gnome-', 'DISPLAY': ':0', 'CMAKE_C_COMPILER': 'gcc', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'HISTSIZE': '10000', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.A4SSE2', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XDG_DATA_HOME': '/home/gustavo/.local/share', 'GNOME_TERMINAL_SERVICE': ':1.524', 'XDG_CONFIG_HOME': '/home/gustavo/.config', 'XMODIFIERS': '@im=ibus', 'FNM_DIR': '/home/gustavo/.local/share/fnm', 'ROS_DOMAIN_ID': '51', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'FNM_RESOLVE_ENGINES': 'false', 'LC_NAME': 'pt_BR.UTF-8', 'SHELL': '/usr/bin/zsh', 'GDMSESSION': 'ubuntu', 'QT_ACCESSIBILITY': '1', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'QT_IM_MODULE': 'ibus', 'SAVEHIST': '10000', 'PWD': '/home/gustavo/ws/build/chatbot', 'TURTLEBOT3_MODEL': 'burger', 'FNM_MULTISHELL_PATH': '/run/user/1000/fnm_multishells/29277_1700172402334', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'KEYTIMEOUT': '1', 'LC_NUMERIC': 'pt_BR.UTF-8', 'PYTHONPATH': '/home/gustavo/ws/build/chatbot/prefix_override:/home/gustavo/ws/install/chatbot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'HISTFILE': '/home/gustavo/.config/zsh/.zhistory', 'LC_PAPER': 'pt_BR.UTF-8', 'FNM_COREPACK_ENABLED': 'false', 'COLCON': '1', 'VTE_VERSION': '6800', 'EDITOR': 'nvim'}, 'shell': False}
+[0.501110] (-) TimerEvent: {}
+[0.576039] (chatbot) StdoutLine: {'line': b'running egg_info\n'}
+[0.576392] (chatbot) StdoutLine: {'line': b'creating ../../build/chatbot/chatbot.egg-info\n'}
+[0.576588] (chatbot) StdoutLine: {'line': b'writing ../../build/chatbot/chatbot.egg-info/PKG-INFO\n'}
+[0.576668] (chatbot) StdoutLine: {'line': b'writing dependency_links to ../../build/chatbot/chatbot.egg-info/dependency_links.txt\n'}
+[0.576798] (chatbot) StdoutLine: {'line': b'writing entry points to ../../build/chatbot/chatbot.egg-info/entry_points.txt\n'}
+[0.576848] (chatbot) StdoutLine: {'line': b'writing requirements to ../../build/chatbot/chatbot.egg-info/requires.txt\n'}
+[0.576886] (chatbot) StdoutLine: {'line': b'writing top-level names to ../../build/chatbot/chatbot.egg-info/top_level.txt\n'}
+[0.576923] (chatbot) StdoutLine: {'line': b"writing manifest file '../../build/chatbot/chatbot.egg-info/SOURCES.txt'\n"}
+[0.577749] (chatbot) StdoutLine: {'line': b"reading manifest file '../../build/chatbot/chatbot.egg-info/SOURCES.txt'\n"}
+[0.578157] (chatbot) StdoutLine: {'line': b"writing manifest file '../../build/chatbot/chatbot.egg-info/SOURCES.txt'\n"}
+[0.580334] (chatbot) StdoutLine: {'line': b'running build\n'}
+[0.580437] (chatbot) StdoutLine: {'line': b'running build_py\n'}
+[0.580494] (chatbot) StdoutLine: {'line': b'creating /home/gustavo/ws/build/chatbot/build\n'}
+[0.580632] (chatbot) StdoutLine: {'line': b'creating /home/gustavo/ws/build/chatbot/build/lib\n'}
+[0.580703] (chatbot) StdoutLine: {'line': b'creating /home/gustavo/ws/build/chatbot/build/lib/chatbot\n'}
+[0.580746] (chatbot) StdoutLine: {'line': b'copying chatbot/__init__.py -> /home/gustavo/ws/build/chatbot/build/lib/chatbot\n'}
+[0.580787] (chatbot) StdoutLine: {'line': b'copying chatbot/chatbot.py -> /home/gustavo/ws/build/chatbot/build/lib/chatbot\n'}
+[0.580922] (chatbot) StdoutLine: {'line': b'running install\n'}
+[0.580992] (chatbot) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[0.581050] (chatbot) StderrLine: {'line': b'  warnings.warn(\n'}
+[0.581087] (chatbot) StdoutLine: {'line': b'running install_lib\n'}
+[0.581576] (chatbot) StdoutLine: {'line': b'creating /home/gustavo/ws/install/chatbot/lib/python3.10/site-packages/chatbot\n'}
+[0.581646] (chatbot) StdoutLine: {'line': b'copying /home/gustavo/ws/build/chatbot/build/lib/chatbot/__init__.py -> /home/gustavo/ws/install/chatbot/lib/python3.10/site-packages/chatbot\n'}
+[0.581686] (chatbot) StdoutLine: {'line': b'copying /home/gustavo/ws/build/chatbot/build/lib/chatbot/chatbot.py -> /home/gustavo/ws/install/chatbot/lib/python3.10/site-packages/chatbot\n'}
+[0.581883] (chatbot) StdoutLine: {'line': b'byte-compiling /home/gustavo/ws/install/chatbot/lib/python3.10/site-packages/chatbot/__init__.py to __init__.cpython-310.pyc\n'}
+[0.582051] (chatbot) StdoutLine: {'line': b'byte-compiling /home/gustavo/ws/install/chatbot/lib/python3.10/site-packages/chatbot/chatbot.py to chatbot.cpython-310.pyc\n'}
+[0.582234] (chatbot) StdoutLine: {'line': b'running install_data\n'}
+[0.582583] (chatbot) StdoutLine: {'line': b'creating /home/gustavo/ws/install/chatbot/share/ament_index\n'}
+[0.582658] (chatbot) StdoutLine: {'line': b'creating /home/gustavo/ws/install/chatbot/share/ament_index/resource_index\n'}
+[0.582701] (chatbot) StdoutLine: {'line': b'creating /home/gustavo/ws/install/chatbot/share/ament_index/resource_index/packages\n'}
+[0.582741] (chatbot) StdoutLine: {'line': b'copying resource/chatbot -> /home/gustavo/ws/install/chatbot/share/ament_index/resource_index/packages\n'}
+[0.582861] (chatbot) StdoutLine: {'line': b'copying package.xml -> /home/gustavo/ws/install/chatbot/share/chatbot\n'}
+[0.582932] (chatbot) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.583890] (chatbot) StdoutLine: {'line': b'Copying ../../build/chatbot/chatbot.egg-info to /home/gustavo/ws/install/chatbot/lib/python3.10/site-packages/chatbot-0.0.0-py3.10.egg-info\n'}
+[0.584236] (chatbot) StdoutLine: {'line': b'running install_scripts\n'}
+[0.597626] (chatbot) StdoutLine: {'line': b'Installing chatbot script to /home/gustavo/ws/install/chatbot/lib/chatbot\n'}
+[0.597852] (chatbot) StdoutLine: {'line': b"writing list of installed files to '/home/gustavo/ws/build/chatbot/install.log'\n"}
+[0.601202] (-) TimerEvent: {}
+[0.614109] (chatbot) CommandEnded: {'returncode': 0}
+[0.645259] (chatbot) JobEnded: {'identifier': 'chatbot', 'rc': 0}
+[0.645734] (-) EventReactorShutdown: {}
