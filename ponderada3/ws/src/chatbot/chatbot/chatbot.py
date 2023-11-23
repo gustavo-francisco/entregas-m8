@@ -6,32 +6,28 @@ class ChatbotNode(Node):
     def __init__(self):
         super().__init__('chatbot_node')
 
-    def go_almox(self):
-        return "Indo para o almoxarifado!"
+    def going(self, local):
+        if local.lower() == "almox" or "almoxarifado" or "packaging":
+            return f"Indo para o {local}!"
         
-    def go_packaging(self):
-        return "Indo para o setor Packaging!"
         
-    def return_almox(self):
-        return "Retornando ao almoxarifado!"
+    def returning(self, local):
+        if local.lower() == "almox" or "almoxarifado" or "packaging":
+            return f"Retornando ao {local}!"
         
-    def return_packaging(self):
-        return "Retornando ao setor Packaging!"
     
     intent_dict = {
-        r"\b([Vv][aá])\s(?:[Pp]a?r?[ao])\s(?:o?)\s?(?:[Aa]lmox(arifado)?)":"go_almox",
-        r"\b([Mm]e\s[Ll]eve|[Ll]eve(-)?me)\s(?:[Pp]a?r[oa]|ao)\s?(?:o?)\s(?:[Aa]lmox(arifado)?)":"go_almox",
-        r"\b([Vv][aá])\s(?:[Pp]a?r[oa]|ao)\s?(?:o?)\s(?:[Pp]ackaging)":"go_packaging",
-        r"\b([Mm]e\s[Ll]eve|[Ll]eve(-)?me)\s(?:[Pp]a?r[oa]|ao)\s?(?:o?)\s(?:[Pp]ackaging)":"go_packaging",
-        r"\b([Rr]etorne)\s(?:[Pp]a?r[ao]|ao)\s?(?:o?)\s(?:[Aa]lmox(arifado)?)":"return_almox",
-        r"\b([Rr]etorne)\s(?:[Pp]a?r?[oa]|ao)\s?(?:o?)\s(?:[Pp]ackaging)":"return_packaging",
+        r"\b(?:[Vv][aá])\s(?:[Pp]a?r?[ao])\s(?:o?)\s?([Aa]lmox(?:arifado)?)":"go",
+        r"\b(?:[Mm]e\s[Ll]eve|[Ll]eve(-)?me)\s(?:[Pp]a?r[oa]|ao)\s?(?:o?)\s([Aa]lmox(?:arifado)?)":"go",
+        r"\b(?:[Vv][aá])\s(?:[Pp]a?r[oa]|ao)\s?(?:o?)\s([Pp]ackaging)":"go",
+        r"\b(?:[Mm]e\s[Ll]eve|[Ll]eve(-)?me)\s(?:[Pp]a?r[oa]|ao)\s?(?:o?)\s([Pp]ackaging)":"go",
+        r"\b(?:[Rr]etorne)\s(?:[Pp]a?r[ao]|ao)\s?(?:o?)\s([Aa]lmox(?:arifado)?)":"return",
+        r"\b(?:[Rr]etorne)\s(?:[Pp]a?r?[oa]|ao)\s?(?:o?)\s([Pp]ackaging)":"return",
     }
 
     action_dict = {
-        "go_almox": go_almox,
-        "go_packaging": go_packaging,
-        "return_almox": return_almox,
-        "return_packaging": return_packaging
+        "go": going,
+        "return": returning,
     }
 
     def chat_loop(self):
@@ -41,7 +37,7 @@ class ChatbotNode(Node):
                 pattern = re.compile(key)
                 groups = pattern.findall(command)
                 if groups:
-                    print(f"{self.action_dict[value](groups[0])}", end=" ")
+                    print(f"{self.action_dict[value](self, groups[0])}", end=" ")
             print()
 
 
