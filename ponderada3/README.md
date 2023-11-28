@@ -1,5 +1,9 @@
 # Ponderada 3
-O presente projeto tem como objetivo a implementação de um chatbot, que utiliza expressões regulares como padrão de busca. O chatbot simula um robô de serviço que pode ir e retornar de 2 setores da empresa: almoxarifado e packaging. 
+O presente projeto tem como objetivo a implementação de um chatbot, que utiliza expressões regulares como padrão de busca. O chatbot simula um robô de serviço que pode ir e retornar de 2 setores da empresa: almoxarifado e packaging.
+
+## Vídeo de funcionamento do projeto
+[Screencast from 28-11-2023 13:05:52.webm](https://github.com/gustavo-francisco/entregas-m8/assets/99208114/5340ffc2-507a-47c1-b134-c35ad3964e41)
+
 
 ## Instruções de instalação
 O projeto está alocado em um pacote ROS.<br>
