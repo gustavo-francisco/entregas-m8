@@ -33,21 +33,19 @@ chain = (
     | prompt
     | model
 )
-
 with gr.Blocks() as demo:
     chatbot = gr.Chatbot()
     msg = gr.Textbox()
 
     def respond(message, history):
-        msgs = ""
+        response = ""
         for s in chain.stream(message):
-            msgs += s
-        history.append((message, msgs))
-        return "", msgs
-    
+            response += s
+        history.append((message, response))
+        return "", history
+
     msg.submit(respond, [msg, chatbot], [msg, chatbot])
 
 demo.launch()
-
 
         
