@@ -4,7 +4,11 @@ Este diretório contém um sistema de chatbot construído usando a biblioteca La
 
 Vídeos de execução do projeto (dividios em 2, input e output):
 
+Input:
+
 [Screencast from 05-12-2023 16:00:39.webm](https://github.com/gustavo-francisco/entregas-m8/assets/99208114/923c9b1c-3b19-45b3-bd60-fbd1fa59b93c)
+
+Output:
 
 [Screencast from 05-12-2023 16:04:34.webm](https://github.com/gustavo-francisco/entregas-m8/assets/99208114/49caa224-ec9a-4493-b175-7c6f657152f3)
 
