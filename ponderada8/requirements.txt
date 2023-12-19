@@ -1,0 +1,5 @@
+gTTS
+SpeechRecognition
+playsound
+deep_translator
+PyAudio
