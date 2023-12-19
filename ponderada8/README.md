@@ -21,3 +21,5 @@ Se ocorrerem problemas com a captura de áudio, verifique se o seu microfone est
 Caso ocorram problemas com a tradução, verifique a conexão com a internet, pois o tradutor utiliza serviços online.
 
 ## Vídeo de demonstração do projeto
+https://github.com/gustavo-francisco/entregas-m8/assets/99208114/aef0efb9-9e27-4db6-8f91-25cd88ef31bb
+
