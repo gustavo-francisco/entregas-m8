@@ -22,6 +22,8 @@ Certifique-se de ter o Python e o pip instalados em seu ambiente. Recomenda-se o
 
 Certifique-se de ter ativado seu ambiente virtual, se estiver usando um.
 
+Recomenda-se o upload do notebook presente no projeto no serviço Google Colab, pois o projeto foi criado e testado no mesmo.
+
 Execute as células de código no notebook para treinar o modelo e testá-lo na base de dados MNIST. Certifique-se de ter conexão com a internet para baixar o conjunto de dados no primeiro uso.
 
 ## Descrição do Código
@@ -48,3 +50,6 @@ O modelo é avaliado nos dados de teste e a precisão é exibida.
 ### 5. Prova de Acurácia e Visualização dos Dados:
 
 O modelo realiza previsões em um conjunto de amostras e exibe os resultados, além de visualizar uma amostra aleatória.
+
+## Vídeo de demonstração do projeto:
+[Screencast from 13-12-2023 15:32:24.webm](https://github.com/gustavo-francisco/entregas-m8/assets/99208114/11f84533-c6b0-43ea-bd17-f7467ed380cc)
